@@ -25,7 +25,7 @@ class AuthView: UIView {
 		}
 	}
 	
-	func setAuthResult(_ error: BiometricError?) {
+	func showAuthResult(_ error: BiometricError?) {
 		label.isHidden = false
 		button.isUserInteractionEnabled = false
 		

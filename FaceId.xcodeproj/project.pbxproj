@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE386B0C24F6698A00AEEC67 /* BiometricAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE386B0B24F6698A00AEEC67 /* BiometricAuthentication.swift */; };
+		FE386B0C24F6698A00AEEC67 /* BiometricAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE386B0B24F6698A00AEEC67 /* BiometricAuthenticator.swift */; };
 		FE75E5BF252C503B002AFF4C /* BiometricType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE75E5BE252C503B002AFF4C /* BiometricType.swift */; };
 		FE75E5C2252C515E002AFF4C /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE75E5C1252C515E002AFF4C /* AuthView.swift */; };
 		FE8AF737252C57ED00EE8A4B /* BiometricError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8AF736252C57ED00EE8A4B /* BiometricError.swift */; };
@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FE386B0B24F6698A00AEEC67 /* BiometricAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuthentication.swift; sourceTree = "<group>"; };
+		FE386B0B24F6698A00AEEC67 /* BiometricAuthenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuthenticator.swift; sourceTree = "<group>"; };
 		FE75E5BE252C503B002AFF4C /* BiometricType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricType.swift; sourceTree = "<group>"; };
 		FE75E5C1252C515E002AFF4C /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		FE8AF736252C57ED00EE8A4B /* BiometricError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricError.swift; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 		FE75E5B7252C4FCF002AFF4C /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				FE386B0B24F6698A00AEEC67 /* BiometricAuthentication.swift */,
+				FE386B0B24F6698A00AEEC67 /* BiometricAuthenticator.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -229,7 +229,7 @@
 				FEE445E524F51C3800F9777C /* ViewController.swift in Sources */,
 				FEE445E124F51C3800F9777C /* AppDelegate.swift in Sources */,
 				FE75E5BF252C503B002AFF4C /* BiometricType.swift in Sources */,
-				FE386B0C24F6698A00AEEC67 /* BiometricAuthentication.swift in Sources */,
+				FE386B0C24F6698A00AEEC67 /* BiometricAuthenticator.swift in Sources */,
 				FEE445E324F51C3800F9777C /* SceneDelegate.swift in Sources */,
 				FE8AF737252C57ED00EE8A4B /* BiometricError.swift in Sources */,
 				FE8AF73B252C636A00EE8A4B /* UIButton.swift in Sources */,

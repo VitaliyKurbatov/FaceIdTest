@@ -12,8 +12,8 @@ class ViewController: UIViewController {
 	@IBOutlet var authView: AuthView!
 
 	@IBAction func authenticateButtonClick(_ sender: UIButton) {
-		BiometricAuthentication().authenticateUser { error in
-			self.authView.setAuthResult(error)
+		BiometricAuthenticator().authenticateUser { error in
+			self.authView.showAuthResult(error)
 		}
 	}
 }

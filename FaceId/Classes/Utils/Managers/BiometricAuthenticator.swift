@@ -8,7 +8,7 @@
 
 import LocalAuthentication
 
-class BiometricAuthentication {
+class BiometricAuthenticator {
 	private let context = LAContext()
 	
 	var biometricType: BiometricType {
